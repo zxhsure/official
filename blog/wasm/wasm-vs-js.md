@@ -1,9 +1,9 @@
-<div style="overflow:hidden;"><img src="./assets/me.jpeg" alt="风起" style="border-radius:50%;width: 25px;float:left;"> <div style="float:left;margin-top: 2px;margin-left: 3px;font-size: 12px;">风起</div></div>
+<div style="overflow:hidden;"><img src="../assets/me.jpeg" alt="风起" style="border-radius:50%;width: 25px;float:left;"> <div style="float:left;margin-top: 2px;margin-left: 3px;font-size: 12px;">风起</div></div>
 <div style="clear:both;font-size: 12px;height:50px;line-height: 34px;">2023-06-28</div>
 
 # wasm VS js，谁快？
 
-![](./assets/wasm-race.webp)
+![](../assets/wasm-race.webp)
 
 我们做一个测试，分别用wasm和js构建同一棵树，实现算法也相同，来对比下谁更快，初步了解下wasm的性能，这里用rust编译wasm。
 

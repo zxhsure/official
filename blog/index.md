@@ -11,8 +11,11 @@ features:
     link: 
   - title: WASM
     details: WebAssembly技术分享
-    link: /blog/wasm-memory
+    link: /blog/wasm/wasm-env
   - title: WGPU
     details: Wgpu技术分享
     link:
+  - title: OTHER
+    details: 其他技术分享
+    link: /blog/other/multipass-env
 ---

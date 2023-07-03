@@ -1,9 +1,9 @@
-<div style="overflow:hidden;"><img src="./assets/me.jpeg" alt="风起" style="border-radius:50%;width: 25px;float:left;"> <div style="float:left;margin-top: 2px;margin-left: 3px;font-size: 12px;">风起</div></div>
+<div style="overflow:hidden;"><img src="../assets/me.jpeg" alt="风起" style="border-radius:50%;width: 25px;float:left;"> <div style="float:left;margin-top: 2px;margin-left: 3px;font-size: 12px;">风起</div></div>
 <div style="clear:both;font-size: 12px;height:50px;line-height: 34px;">2023-06-24</div>
 
 # wasm内存模型
 
-![](./assets/wasm-memory.png)
+![](../assets/wasm-memory.png)
 
 ## wasm内存模型：
 

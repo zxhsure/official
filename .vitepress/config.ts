@@ -9,15 +9,10 @@ export default defineConfig({
       { text: 'Blog', link: '/blog/index', activeMatch: '/blog/' }
     ],
 
-    sidebar: [
-      {
-        text: 'WASM',
-        items: [
-          { text: 'wasm内存模型', link: '/blog/wasm-memory' },
-          { text: 'wasm VS js，谁快？', link: '/blog/wasm-vs-js' },
-        ]
-      }
-    ],
+    sidebar: {
+      '/blog/wasm/': wasm(),
+      '/blog/other/': other(),
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zxhsure' }
@@ -28,4 +23,28 @@ export default defineConfig({
     },
 
   }
-})
+});
+
+function wasm() {
+  return [
+    {
+      text: 'WASM',
+      items: [
+        { text: 'wasm环境搭建', link: '/blog/wasm/wasm-env' },
+        { text: 'wasm内存模型', link: '/blog/wasm/wasm-memory' },
+        { text: 'wasm VS js，谁快？', link: '/blog/wasm/wasm-vs-js' },
+      ]
+    }
+  ];
+}
+
+function other() {
+  return [
+    {
+      text: 'OTHER',
+      items: [
+        { text: 'multipass(mac上的ubuntu)', link: '/blog/other/multipass-env' },
+      ]
+    }
+  ]
+}
