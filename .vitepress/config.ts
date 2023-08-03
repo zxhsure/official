@@ -10,8 +10,9 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/blog/wasm/': wasm(),
+      '/blog/rww/': rww(),
       '/blog/other/': other(),
+      '/blog/fengqi/': fengqi(),
     },
 
     socialLinks: [
@@ -25,14 +26,14 @@ export default defineConfig({
   }
 });
 
-function wasm() {
+function rww() {
   return [
     {
-      text: 'WASM',
+      text: 'RUST/WASM/WGPU',
       items: [
-        { text: 'wasm环境搭建', link: '/blog/wasm/wasm-env' },
-        { text: 'wasm内存模型', link: '/blog/wasm/wasm-memory' },
-        { text: 'wasm VS js，谁快？', link: '/blog/wasm/wasm-vs-js' },
+        { text: 'wasm环境搭建', link: '/blog/rww/wasm-env' },
+        { text: 'wasm内存模型', link: '/blog/rww/wasm-memory' },
+        { text: 'wasm VS js，谁快？', link: '/blog/rww/wasm-vs-js' },
       ]
     }
   ];
@@ -44,6 +45,18 @@ function other() {
       text: 'OTHER',
       items: [
         { text: 'multipass(mac上的ubuntu)', link: '/blog/other/multipass-env' },
+        { text: '前端框架搭建-微前端', link: '/blog/other/wujie' },
+      ]
+    }
+  ]
+}
+
+function fengqi() {
+  return [
+    {
+      text: '风起',
+      items: [
+        { text: '函数式编程/逻辑图/AI', link: '/blog/fengqi/fpai' },
       ]
     }
   ]

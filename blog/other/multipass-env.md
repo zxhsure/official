@@ -70,7 +70,7 @@ multipass set local.driver=qemu
 
 ### rustc 编译报错 Linker 'cc' not found
 
-rust基础环境搭建，参考：[搭建wasm环境](../wasm//wasm-env.md)
+rust基础环境搭建，参考：[搭建wasm环境](../rww/wasm-env.md)
 
 sudo apt-get update
 sudo apt install build-essential
