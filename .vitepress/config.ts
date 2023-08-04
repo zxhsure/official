@@ -57,6 +57,7 @@ function fengqi() {
       text: '风起',
       items: [
         { text: '函数式编程/逻辑图/AI', link: '/blog/fengqi/fpai' },
+        { text: 'Figma引发的思考', link: '/blog/fengqi/figmadev' },
       ]
     }
   ]
