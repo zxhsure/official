@@ -34,6 +34,7 @@ function rww() {
         { text: 'wasm环境搭建', link: '/blog/rww/wasm-env' },
         { text: 'wasm内存模型', link: '/blog/rww/wasm-memory' },
         { text: 'wasm VS js，谁快？', link: '/blog/rww/wasm-vs-js' },
+        { text: 'wasm与wgpu（一）', link: '/blog/rww/wgpu-001' },
       ]
     }
   ];

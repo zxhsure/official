@@ -63,3 +63,5 @@ Figma里实现了文字排版、图片音视频、组件、AutoLayout、变量�
 
 [《The Future Web: Will Canvas Rendering Replace the DOM?》](https://medium.com/young-coder/the-future-web-will-canvas-rendering-replace-the-dom-847be872884c)
 
+[《详解canvas优越性能和实际应用》](https://segmentfault.com/a/1190000040564730)
+
