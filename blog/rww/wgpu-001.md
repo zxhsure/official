@@ -1,7 +1,7 @@
 <div style="overflow:hidden;"><img src="../assets/me.jpeg" alt="风起" style="border-radius:50%;width: 25px;float:left;"> <div style="float:left;margin-top: 2px;margin-left: 3px;font-size: 12px;">风起</div></div>
 <div style="clear:both;font-size: 12px;height:50px;line-height: 34px;">2023-09-09</div>
 
-# wasm与wgpu（一）
+# wasm与wgpu（一）：窗口
 ## 窗口容器
 
 绘图前首先需要一个绘图载体，这个载体就是窗口，对于web来说就是一个canvas画布。可以用第三方窗口管理库或自己手动实现。
@@ -80,9 +80,10 @@ fn closeTest() {
 
 - rust不同于js，多了所有权的概念，通过所有权系统，让rust无需垃圾回收即可保证内存安全。
 - 一些重要概念，示例代码见[《wasm VS js, 谁快?》](./wasm-vs-js.md)
+  - 变量的生命周期
   - 栈，`拷贝`
   - 堆，`引用/切片（可变/不可变）`、`克隆`、`转移`、`借用（可变/不可变）`、`原始指针`
-
+  
 - rust所有权管理规则：
   - Rust 中的每一个值都有一个 所有者（owner）。
   -  值在任一时刻有且只有一个所有者。
