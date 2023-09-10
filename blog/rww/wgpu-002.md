@@ -8,6 +8,8 @@
 
 这节内容介绍展示平面`surface`，示例工程代码见[【wgpu002】](https://github.com/zxhsure/learn/tree/main/wgpu002)
 
+<img src="../assets/wgpu002-2.png" alt="image-20230911071223957" style="zoom:50%;" />
+
 展示平面`surface`则让`canvas`作为`webgpu`的一个纹理与`webgpu`进行渲染互动，在`canvas`和`webgpu`之间扮演着沟通桥梁。
 
 - `usage` 字段描述了 `SurfaceTexture` 如何被使用。`RENDER_ATTACHMENT` 指定将被用来渲染到屏幕的纹理。

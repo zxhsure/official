@@ -36,6 +36,7 @@ function rww() {
         { text: 'wasm VS js，谁快？', link: '/blog/rww/wasm-vs-js' },
         { text: 'wasm与wgpu（一）：窗口', link: '/blog/rww/wgpu-001' },
         { text: 'wasm与wgpu（二）：展示平面', link: '/blog/rww/wgpu-002' },
+        { text: 'wasm与wgpu（三）：管线', link: '/blog/rww/wgpu-003' },
       ]
     }
   ];
