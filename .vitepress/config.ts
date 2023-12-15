@@ -50,6 +50,7 @@ function other() {
         { text: 'multipass(mac上的ubuntu)', link: '/blog/other/multipass-env' },
         { text: '前端框架搭建-微前端', link: '/blog/other/wujie' },
         { text: '冬雷', link: '/blog/other/donglei' },
+        { text: '单点登录设计方案', link: '/blog/other/sso' },
       ]
     }
   ]
